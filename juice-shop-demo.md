@@ -5,8 +5,7 @@ Assumes Juice Shop is running in Docker (or Podman) at `http://localhost:3000`
    docker run --rm -v "$PWD\\logs:/juice-shop/logs" -p 127.0.0.1:3000:3000 bkimminich/juice-shop
       
 
-<h3 style="background: red; padding: 1em;">Safety: Run these demonstrations only against the intentionally vulnerable Juice Shop instance in an isolated lab, and only on systems you own or have explicit authorization to test. Do not target production or third-party systems.</h3>
-
+> **Safety:** Run these demonstrations only against the intentionally vulnerable Juice Shop instance in an isolated lab, and only on systems you own or have explicit authorization to test. Do not target production or third-party systems.
 
 ## Injection (SQL Injection)
 
