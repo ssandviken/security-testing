@@ -1,6 +1,8 @@
-# Test day 2026
-
 # Security Testing in Practice
+
+**From OWASP Top 10 and ZAP to CRA and IACS UR E-27; a brief intro to some tools, technics and frameworks that can help testers and developers in their daily work**
+
+---
 
 Security testing belongs in everyday software engineering. Developers shape security through architecture, code, and dependency choices. Testers challenge assumptions and verify that systems remain secure when users provide unexpected inputs or attempt unauthorized actions.
 
@@ -12,7 +14,7 @@ Functional testing asks whether an intended user can complete an intended task. 
 
 For example, viewing your own shopping basket tests functionality. Confirming that you cannot view another user’s basket tests access control.
 
-Abuse stories help teams describe behavior they need to prevent, especially around permissions, sensitive data, and important operations. These stories can guide security requirements and test cases.
+It also is possible to add some "security acceptance criteria" to your user stories.
 
 ## Attack surface
 
