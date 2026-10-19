@@ -63,11 +63,9 @@ Recommended practices include:
 - Minimize external dependencies and prefer suitable built-in functionality.
 - Pin reviewed versions, commit lockfiles, and use deterministic installation in CI.
 - Control installation scripts and avoid adopting newly published packages without review.
-- Use approved repositories and scan dependencies continuously.
+- Use trusted package sources and scan dependencies continuously.
 
 A **Software Bill of Materials (SBOM)** records the components included in a product, including direct and indirect dependencies. It supports vulnerability analysis and traceability, but does not by itself prevent malicious code from running during installation.
-
-The presentation describes a workflow using JFrog to generate a CycloneDX SBOM and Dependency-Track to analyze component vulnerabilities and risk.
 
 ## Requirements, verification, and compliance evidence
 
@@ -83,16 +81,17 @@ The broader frameworks address different concerns:
 
 The presentation recommends considering ASVS Level 2 as an application-security baseline, using WSTG for verification, and maintaining a threat model, SBOM, vulnerability-handling process, and secure-update process. Map relevant requirements and test evidence to the standards that apply to the product.
 
-ASVS and WSTG can support compliance work, but using them does not automatically establish certification or type approval.
+_ASVS and WSTG can support compliance work, but using them does not automatically establish certification or type approval._
 
 ## Key takeaway
 
 Security requires ongoing collaboration across development and testing. Start with security checks in ordinary test plans, integrate automated scanning into the build pipeline, and improve coverage over time. Treat security as a core quality attribute alongside functionality and performance.
 
 
-## Referances
+## References
 
 * https://owasp.org/projects/juice-shop
 * https://cheatsheetseries.owasp.org/
 * https://owasp.org/projects
 * https://owasp.org/projects/asvs
+* https://www.zaproxy.org/
